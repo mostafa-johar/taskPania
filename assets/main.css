@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+*{
+ margin: 0;   
+ font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #e3e3e347;
+}
+/* === header  ===*/
+nav{
+    background-color: #EEE;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+nav .imageH{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+
+}
+nav img {
+    max-width: 50px;
+    transform: rotate(-10deg);
+}
+nav h1{
+    font-size: 26px;
+    color: #6c6c6c;
+    transform: rotate(5deg);
+}
+form{
+    margin-bottom: 20px;
+}
+nav .search,
+nav .add{
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    border: none;
+}
+nav .search{
+    width: 215px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+nav .add{
+    background-color: yellow;
+    width: 70px;
+    font-size: 15px;
+
+}
+
+/* ==== taskList */
+.taskList{
+    margin: 10px auto;
+    max-width: 600px;
+}
+.taskList .task,.taskList p{
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+.taskList .task{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 0px 0px #6c6c6c30;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
+.twoBtn{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.twoBtn button{
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: #FFF;
+    cursor: pointer;
+}
+.active{
+    color: rgba(221, 46, 99, 0.925);
+}                 
